@@ -49,7 +49,7 @@ Additional features, renaming, moving, trashing, restoring, and more (see help m
 
 ```
 git clone https://github.com/1020304050607/Dexplorer
-cd dexplorer 
+cd Dexplorer 
 chmod +x Dexplorer.sh
 ./Dexplorer
 ```
