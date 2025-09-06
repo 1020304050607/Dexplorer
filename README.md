@@ -36,7 +36,9 @@ Features
 
 - Minimal terminal design readable in any terminal.
 
+
 Controls:
+
 
 Default navigation is single-key driven:
 
@@ -50,7 +52,9 @@ h - Help
 
 q - Quit
 
+
 Additional features, renaming, moving, trashing, restoring, and more (see help menu).
+
 
 Modes:
 
@@ -62,58 +66,39 @@ Search mode: Accurate search with quick preview (unlike other file managers).
 
 Sort mode: easy to use sorting of directory entries.
 
-Installation
+Installation:
 
 Dex is a single Python file. Just clone and run:
 
-git clone https://github.com/yourname/dexplorer.git
+git clone https://github.com/1020304050607/Dexplorer.git
+
 cd dexplorer
-./dex.py
+
+chmod +x Dexplorer.sh
+
+./dexplorer.sh
 
 
 Requirements:
 
 Python 3.7+
-
 mpv (optional, for media)
-
 xdg-open (optional, for opening files)
-
-Quickstart
-
-Navigate to any directory and run:
-
-./dex.py
-
 
 From there:
 
-Use 1/2 to move
-
-Hit Enter to open
-
-x to trash
-
-T to enter trash menu
-
-3 to search
-
-Configuration
-
-Dex reads environment variables for external tools:
-
-EDITOR → Preferred text editor (falls back to vim or nano)
-
-mpv → Media playback (default: mpv)
-
-Other behaviors (batch size, sort order, delete confirmation) can be tweaked by editing the script directly — it’s meant to be hackable.
+- Use 1/2 to move
+- Press Enter to open
+- x to trash
+- T to enter trash menu
+- 3 to search
 
 Screenshots / Demo
+<img width="1368" height="768" alt="2025-09-06_21-30-17" src="https://github.com/user-attachments/assets/1f70ec51-92ab-4653-ae1e-71f5241d6556" />
+<img width="1368" height="768" alt="2025-09-06_21-30-43" src="https://github.com/user-attachments/assets/c4789f83-b761-4bc3-a768-037efa631b33" />
+<img width="1368" height="768" alt="2025-09-06_21-30-25" src="https://github.com/user-attachments/assets/d062870c-67b3-49f0-b510-5960db48d11d" />
+<img width="1368" height="768" alt="2025-09-06_21-31-23" src="https://github.com/user-attachments/assets/7765ced3-d3b9-4c3e-b4f4-cb3014153873" />
+<img width="1368" height="768" alt="2025-09-06_21-31-41" src="https://github.com/user-attachments/assets/e4785143-2018-4ac6-b5cf-a16b9b1b423a" />
 
-(Insert a terminal screenshot or asciinema gif here — this will massively boost stars on GitHub)
-
-Discussion
-
-Dex is still evolving. Contributions, scripts, and weird ASCII hacks are welcome.
+Dex is still growing. Contributions scripts are allowed.
 Open issues, ideas, or share demos in the Discussions
-.
