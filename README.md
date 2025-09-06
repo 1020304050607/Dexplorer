@@ -48,7 +48,7 @@ Additional features, renaming, moving, trashing, restoring, and more (see help m
 ## Installation
 
 ```
-git clone https://github.com/yourname/dexplorer.git 
+git clone https://github.com/1020304050607/Dexplorer
 cd dexplorer 
 chmod +x Dexplorer.sh
 ./Dexplorer
