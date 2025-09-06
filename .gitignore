@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Trash / temp files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# IDE configs
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiled binaries if any
+*.exe
+*.out
+*.o
+*.so
+
+# Ignore user-specific settings
+*.user
